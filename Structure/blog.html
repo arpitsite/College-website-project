@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+
+    <section class="sub-header"> 
+        <nav>
+            <a href="../Structure/index.html"><img src="../Assets/logo.png"></a>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="../Structure/index.html">HOME</a></li>
+                    <li><a href="../Structure/about.html">ABOUT</a></li>
+                    <li><a href="../Structure/course.html">COURSE</a></li>
+                    <li><a href="../Structure/blog.html">BLOG</a></li>
+                    <li><a href="../Structure/contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+      
+        <h1>Our Certificate & Online Programs For 2021</h1>
+
+    </section>
+
+      
+    <!-- ----------BLOG PAGE CONTENT-------------- -->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="../Assets/certificate.jpg" alt="">
+                <h2>Our Certificate & Online Programs For 2021</h2>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente recusandae nesciunt sit distinctio consectetur animi placeat. Perspiciatis alias inventore dolore in et eum ex debitis incidunt voluptatibus ratione quam officia ipsa delectus culpa exercitationem iste vero sequi, magni unde placeat nam sapiente? Facere et reprehenderit saepe iure non ex molestias assumenda maiores.</p>
+                <br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae expedita cupiditate commodi delectus omnis culpa debitis incidunt maxime est asperiores. Mollitia fugit quisquam, quam aliquid inventore eius quis quasi aspernatur numquam minus iusto dolorem dolores. Ex hic ipsa officia reprehenderit quasi iusto doloremque, debitis eum ab harum ullam ut dolorem itaque quisquam consequuntur consectetur dignissimos. Consequuntur modi ut blanditiis nobis dolore aliquid suscipit ducimus iusto sit dolores cumque ex autem odit vitae facilis sapiente, accusantium deserunt inventore, minima assumenda consectetur illum nam porro. Eaque quia maiores a vel? Debitis laudantium quis iste non excepturi voluptatum quos accusantium beatae vero totam!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed iure aspernatur a necessitatibus impedit, at eveniet exercitationem odio earum tempora voluptate sunt aliquam eligendi doloribus vero maxime velit soluta repudiandae. Quam error sapiente accusamus alias natus, aperiam, in eum atque dolorem iusto culpa quibusdam expedita iure? Minus distinctio fugiat eaque corporis nihil a, vero ratione quo quia maiores optio molestiae ipsa at facilis reprehenderit, repudiandae placeat? Magni rem soluta veniam.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum necessitatibus corrupti nobis quibusdam modi, a deserunt alias odit quia, accusamus, eligendi animi labore ipsa fugit ipsam consectetur quaerat inventore? Animi, et neque ratione quidem adipisci temporibus nisi est nemo dolores fuga velit consectetur optio, accusantium dolorum at id natus, atque omnis a!</p>
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="text" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+
+            </div>
+
+
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- --------------FOOTER----------------- -->
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo at inventore vitae quae, totam sapiente <br>
+             harum maiores consequuntur repellendus expedita incidunt quos, ipsam quis.</p>
+
+             <div class="icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+             </div>
+
+             <p>Made with <i class="fa fa-heart"></i> By Easy Tutorials</p>
+    </section>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- -----Javascript For toggle menu------- -->
+    
+  <script>
+
+    var navLinks = document.getElementById("navLinks")
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+
+  </script>
+
+</body>
+</html>
